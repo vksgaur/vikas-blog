@@ -1,3 +1,13 @@
+---
+title: How the Enlightenment Remade Europe, and Then the World
+date: 2026-03-15
+tags:
+  - history
+  - ideas
+summary: One-line description.
+---
+
+
 **The Century That Changed Everything**
 
 _How the Enlightenment Remade Europe, and Then the World_
@@ -6,35 +16,17 @@ There is a moment, somewhere around the middle of the eighteenth century, when y
 
 Why do kings rule by divine right? Why do priests tell us what the heavens intend? Why are some men born to serve and others born to be served? Why does tradition carry more weight than evidence? Why must we accept what we were told when we were young, without ever testing it against the world as it actually is?
 
-  
-
 The Enlightenment was the long, thrilling, dangerous answer to that question. And it changed, in ways we are still living inside of today, nearly everything.
-
-  
-
-  
-
-  
 
 **Before the Light: A World Held in Place**
 
-  
-
 To understand how radical the Enlightenment was, you have to sit with the world it replaced. Medieval and early modern Europe was a society organised around fixedness. Your station in life was, in the dominant theology, assigned by God. The king ruled because God willed it. The serf worked the fields because that was the order of creation. The Church explained the cosmos, prescribed morality, and managed the border between the living and the dead. To question these arrangements too loudly was not merely impolite. It could get you burned.
-
-  
 
 This is not to say medieval Europe was without thinkers or curiosity. It had extraordinary ones. But the framework for knowledge was revealed rather than discovered. Truth descended from above. Aristotle's physics, mediated through Church authority, was more reliable than anything a man might see with his own eyes, because Aristotle had been absorbed into the structure of sacred learning, and sacred learning did not make mistakes.
 
-  
-
 Then came a series of ruptures, each feeding the next. The printing press in the 1440s shattered the Church's monopoly on text. The Protestant Reformation cracked the idea of a single Christian authority. The voyages of exploration revealed civilisations that had never heard of Genesis and yet had not collapsed into barbarism. And above all, there was the Scientific Revolution of the sixteenth and seventeenth centuries: Copernicus placing the sun at the centre of things, Galileo confirming it through a lens, Newton showing that the entire machinery of the heavens obeyed a handful of elegant mathematical laws. If God had made the universe, He had made it as a rational mechanism. And if it was rational, it could be understood by reason alone.
 
-  
-
 **_The Enlightenment did not invent reason. It decided that reason was enough._**
-
-  
 
 **The Age of Reason Arrives**
 
