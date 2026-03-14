@@ -1,0 +1,33 @@
+baseURL = "https://vksgaur.github.io/vikas-blog/"
+languageCode = "en-us"
+title = "Vikas Gaur"
+theme = "vikas"
+
+[params]
+  description = "A personal blog — essays on history, technology, ideas, and the things worth thinking slowly about."
+  author = "Vikas Gaur"
+  tagline = "Reading deeply, thinking slowly."
+
+[menu]
+  [[menu.main]]
+    name = "home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "blog"
+    url = "/posts/"
+    weight = 2
+  [[menu.main]]
+    name = "about"
+    url = "/about/"
+    weight = 3
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = "monokai"
+
+[outputs]
+  home = ["HTML", "RSS"]

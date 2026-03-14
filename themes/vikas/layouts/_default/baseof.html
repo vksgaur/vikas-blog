@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ if .IsHome }}{{ .Site.Title }} — {{ .Site.Params.tagline }}{{ else }}{{ .Title }} — {{ .Site.Title }}{{
+        end }}</title>
+    <meta name="description"
+        content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}" />
+    <meta name="author" content="{{ .Site.Params.author }}" />
+    {{ $css := resources.Get "css/style.css" }}
+    <link rel="stylesheet" href="{{ $css.Permalink }}" />
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%233b3b9e'/%3E%3Ctext x='50' y='66' font-family='Georgia, serif' font-size='52' font-weight='bold' fill='%23faf8f0' text-anchor='middle'%3EVG%3C/text%3E%3C/svg%3E" />
+    {{ with .OutputFormats.Get "RSS" }}
+    <link rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" href="{{ .Permalink }}" />
+    {{ end }}
+</head>
+
+<body>
+    <header class="site-header">
+        <nav class="site-nav">
+            <a href="{{ .Site.BaseURL }}" class="site-logo">{{ .Site.Title }}</a>
+            <ul class="nav-links">
+                {{ range .Site.Menus.main }}
+                <li><a href="{{ .URL }}" {{ if $.IsMenuCurrent "main" . }}class="active" {{ end }}>{{ .Name }}</a></li>
+                {{ end }}
+            </ul>
+        </nav>
+    </header>
+
+    <main class="site-main">
+        {{ block "main" . }}{{ end }}
+    </main>
+
+    <footer class="site-footer">
+        {{ .Site.Params.author }} · {{ now.Format "2006" }}
+    </footer>
+</body>
+
+</html>
