@@ -9,5 +9,8 @@ public/
 resources/
 .hugo_build.lock
 
+# Nested Obsidian vault (created if Obsidian opens posts/ directly)
+content/posts/.obsidian/
+
 # OS files
 .DS_Store

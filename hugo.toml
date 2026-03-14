@@ -2,6 +2,7 @@ baseURL = "https://vksgaur.github.io/vikas-blog/"
 languageCode = "en-us"
 title = "Vikas Gaur"
 theme = "vikas"
+buildFuture = true
 
 [params]
   description = "A personal blog — essays on history, technology, ideas, and the things worth thinking slowly about."
