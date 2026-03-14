@@ -1,13 +1,11 @@
 ---
-title: Whatever You Want To Call It
+title: "The Light That Changed the World: The Story of the Enlightenment"
 date: 2026-03-14
 tags:
   - history
   - ideas
 summary: The Light That Changed the World
 ---
-# The Light That Changed the World: The Story of the Enlightenment
-
 ## A Revolution Without Swords
 
 History remembers its violent revolutions — armies clashing, empires falling, borders redrawn in blood. But perhaps the most transformative revolution in human history was fought not on battlefields, but in coffeehouses, salons, and printed pamphlets. It was the Enlightenment, the great intellectual awakening of 17th and 18th century Europe, and it did something no army ever could: it changed how human beings _think_.
