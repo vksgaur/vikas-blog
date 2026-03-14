@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Institutions on Vikas Gaur</title>
-    <link>http://localhost:1313/vikas-blog/tags/institutions/</link>
+    <link>http://localhost:1314/vikas-blog/tags/institutions/</link>
     <description>Recent content in Institutions on Vikas Gaur</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 14 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/vikas-blog/tags/institutions/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1314/vikas-blog/tags/institutions/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Institutional Mutation That Changed Everything</title>
-      <link>http://localhost:1313/vikas-blog/posts/the-institutional-mutation/</link>
+      <link>http://localhost:1314/vikas-blog/posts/the-institutional-mutation/</link>
       <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/vikas-blog/posts/the-institutional-mutation/</guid>
+      <guid>http://localhost:1314/vikas-blog/posts/the-institutional-mutation/</guid>
       <description>Why Europe&amp;rsquo;s rise wasn&amp;rsquo;t about genius or geography — it was about building the world&amp;rsquo;s first system that rewarded saying &amp;lsquo;I was wrong.&amp;rsquo;</description>
     </item>
   </channel>

@@ -1,0 +1,29 @@
+#!/bin/bash
+# ╔═══════════════════════════════════════════════════════════╗
+# ║  PUBLISH — Push your latest writing to the blog          ║
+# ║  Just double-click this file or run: ./publish            ║
+# ╚═══════════════════════════════════════════════════════════╝
+
+cd "$(dirname "$0")"
+
+echo ""
+echo "  📝  Publishing your blog..."
+echo ""
+
+# Stage everything, commit, and push
+git add -A
+
+# Use the current date + time as the commit message
+git commit -m "Published on $(date '+%d %B %Y, %I:%M %p')" 2>/dev/null
+
+if [ $? -eq 0 ]; then
+    git push origin main
+    echo ""
+    echo "  ✅  Done! Your blog will be live in ~30 seconds."
+    echo "  🌐  https://vksgaur.github.io/vikas-blog/"
+    echo ""
+else
+    echo ""
+    echo "  ℹ️  Nothing new to publish. Write something first!"
+    echo ""
+fi

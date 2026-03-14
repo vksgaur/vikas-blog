@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vikas Gaur</title>
-    <link>http://localhost:1313/vikas-blog/</link>
+    <link>http://localhost:1314/vikas-blog/</link>
     <description>Recent content on Vikas Gaur</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 14 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/vikas-blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1314/vikas-blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Institutional Mutation That Changed Everything</title>
-      <link>http://localhost:1313/vikas-blog/posts/the-institutional-mutation/</link>
+      <link>http://localhost:1314/vikas-blog/posts/the-institutional-mutation/</link>
       <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/vikas-blog/posts/the-institutional-mutation/</guid>
+      <guid>http://localhost:1314/vikas-blog/posts/the-institutional-mutation/</guid>
       <description>Why Europe&amp;rsquo;s rise wasn&amp;rsquo;t about genius or geography — it was about building the world&amp;rsquo;s first system that rewarded saying &amp;lsquo;I was wrong.&amp;rsquo;</description>
     </item>
     <item>
       <title>Why I Write Long</title>
-      <link>http://localhost:1313/vikas-blog/posts/why-i-write-long/</link>
+      <link>http://localhost:1314/vikas-blog/posts/why-i-write-long/</link>
       <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/vikas-blog/posts/why-i-write-long/</guid>
+      <guid>http://localhost:1314/vikas-blog/posts/why-i-write-long/</guid>
       <description>A short defence of long-form writing in a world that rewards brevity above all else.</description>
     </item>
     <item>
       <title>About</title>
-      <link>http://localhost:1313/vikas-blog/about/</link>
+      <link>http://localhost:1314/vikas-blog/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/vikas-blog/about/</guid>
+      <guid>http://localhost:1314/vikas-blog/about/</guid>
       <description>&lt;p&gt;This is &lt;strong&gt;Vikas Gaur&amp;rsquo;s&lt;/strong&gt; corner of the internet.&lt;/p&gt;&#xA;&lt;p&gt;I like to read deeply, think slowly, and understand the world properly rather than quickly. In a world that rushes everything, I find joy in sitting with an idea long enough for it to actually make sense.&lt;/p&gt;&#xA;&lt;p&gt;I write about history, economics, technology, and the patterns that connect them. My long-form research reports live at &lt;a href=&#34;https://vksgaur.github.io/vikas-reports/&#34;&gt;vikas-reports&lt;/a&gt;. This blog is where the shorter, more personal writing goes — essays, observations, and the occasional argument with myself.&lt;/p&gt;</description>
     </item>
   </channel>
