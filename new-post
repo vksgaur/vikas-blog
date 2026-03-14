@@ -1,0 +1,56 @@
+#!/bin/bash
+# ╔═══════════════════════════════════════════════════════════╗
+# ║  NEW POST — Create a new blog post and open in Obsidian  ║
+# ║  Usage: ./new-post "My Post Title"                       ║
+# ║     or: ./new-post  (will ask for title)                 ║
+# ╚═══════════════════════════════════════════════════════════╝
+
+cd "$(dirname "$0")"
+
+# Get the title
+TITLE="$1"
+if [ -z "$TITLE" ]; then
+    echo ""
+    echo "  ✏️  What's the title of your new post?"
+    echo ""
+    read -r -p "  Title: " TITLE
+fi
+
+if [ -z "$TITLE" ]; then
+    echo "  ❌  No title provided. Exiting."
+    exit 1
+fi
+
+# Generate slug from title (lowercase, spaces to hyphens, remove special chars)
+SLUG=$(echo "$TITLE" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9 ]//g' | sed 's/  */ /g' | sed 's/ /-/g')
+DATE=$(date '+%Y-%m-%d')
+FILE="content/posts/${SLUG}.md"
+
+if [ -f "$FILE" ]; then
+    echo ""
+    echo "  ⚠️  Post already exists: $FILE"
+    echo "  Opening it..."
+else
+    cat > "$FILE" << EOF
+---
+title: "${TITLE}"
+date: ${DATE}
+tags: []
+summary: ""
+---
+
+EOF
+    echo ""
+    echo "  📄  Created: $FILE"
+fi
+
+# Open in Obsidian
+VAULT_PATH="$(pwd)"
+ENCODED_VAULT=$(python3 -c "import urllib.parse; print(urllib.parse.quote('${VAULT_PATH##*/}'))")
+ENCODED_FILE=$(python3 -c "import urllib.parse; print(urllib.parse.quote('${FILE}'))")
+open "obsidian://open?vault=${ENCODED_VAULT}&file=${ENCODED_FILE}" 2>/dev/null
+
+echo "  ✅  Opened in Obsidian. Start writing!"
+echo ""
+echo "  When you're done, run: ./publish"
+echo ""
