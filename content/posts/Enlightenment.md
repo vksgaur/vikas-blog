@@ -4,10 +4,8 @@ date: 2026-03-15
 tags:
   - history
   - ideas
-summary: One-line description.
+summary: A sweeping intellectual history of the Enlightenment, how Europe's eighteenth-century revolt against superstition and tradition remade the foundations of politics, science, and human dignity, and why the world we live in is still inside that revolution.
 ---
-
-
 **The Century That Changed Everything**
 
 _How the Enlightenment Remade Europe, and Then the World_

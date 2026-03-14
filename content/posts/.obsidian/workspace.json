@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "357e5b182c26a5ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "The Story of the Enlightenment.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "The Story of the Enlightenment"
-            }
-          },
-          {
             "id": "7fbcdbaa0a77e302",
             "type": "leaf",
             "state": {
@@ -35,8 +21,7 @@
               "title": "Enlightenment"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -68,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:topic",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -200,7 +185,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cbab0b5806748858",
+  "active": "7fbcdbaa0a77e302",
   "lastOpenFiles": [
     "The Story of the Enlightenment.md",
     "Enlightenment.md",
