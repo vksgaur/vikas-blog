@@ -1,8 +1,9 @@
 ---
-title: "{{title}}"
-date: {{date}}
+title: "<% tp.file.title %>"
+date: <% tp.date.now("YYYY-MM-DD") %>
 tags: []
 summary: ""
-draft: false
+draft: true
 ---
 
+<% tp.file.cursor() %>
