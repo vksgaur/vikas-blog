@@ -1,7 +1,8 @@
 ---
-title: प्रेमचंद की लोकप्रियता के कारण और हिंदी साहित्य में उनका योगदान
-date:
+title: The Psychology of Why We Avoid What We Want Most
+date: 2026-03-22
 tags:
+  - Psychology
 summary:
 ---
 In 1852, a young man from Calcutta named Michael Madhusudan Datta did something that baffled the people who loved him. He had, by every measure, arrived. His English verse was being praised in the salons of Bengal. He was sharp, charming, fluent in Greek and Latin, beloved by the literary circles of Madras. And then, just as recognition was within reach, he fled to Europe, piled up debts he had no plan to repay, married twice, drank heavily, and spent the next decade ensuring that the career everyone said he was destined for would remain perpetually just out of reach.
